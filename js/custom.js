@@ -53,10 +53,10 @@ $(function () {
             logo = $(".navbar .logo> img");
         if (bodyScroll > 100) {
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'img/logo.png');
+            logo.attr('src', 'img/header-logo.gif');
         } else {
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'img/logo.png');
+            logo.attr('src', 'img/header-logo.gif');
         }
     });
     
@@ -146,7 +146,7 @@ $(function () {
         autoplay: false,
         dots: true,
         autoplayHoverPause: true,
-        nav: false,
+        nav: true,
         navText: ["<span class='lnr ti-angle-left'></span>","<span class='lnr ti-angle-right'></span>"],
         responsiveClass: true,
         responsive: {
@@ -327,7 +327,7 @@ $(function () {
                 items: 3
             },
             1000: {
-                items: 4
+                items: 6
             }
         }
     });
