@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="./css/linen-category.css">
 
-    <title>Document</title>
+    <title>Linen - Revilin</title>
 </head>
 <body>
       <!-- Preloader -->
@@ -27,43 +27,62 @@
       </div>
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg">
-          <div class="container">
-              <!-- Logo -->
-              <div class="logo-wrapper">
-                  <a class="logo" href="index.html"> <img src="img/header-logo.gif" class="logo-img" alt=""> </a>
-                  <!-- <a class="logo" href="index.html"> <h2>THE CAPPA <span>Luxury Hotel</span></h2> </a> -->
-              </div>
-              <!-- Button -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
-              <!-- Menu -->
-              <div class="collapse navbar-collapse" id="navbar">
-                  <ul class="navbar-nav ms-auto">
-                      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#">Linen</a></li>
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Products <i class="ti-angle-down"></i></a>
-                          <ul class="dropdown-menu">
-                            <li><a href="#" class="dropdown-item"><span>Linen</span></a></li>
-                            <li>
-                              <a href="#" class="dropdown-item"><span>Non Woven</span></a>
-                              <ul class="dropdown-menu"> <!-- New dropdown menu within "Non Woven" -->
-                                <li><a href="#" class="dropdown-item"><span>Sub-item 1</span></a></li>
-                                <li><a href="#" class="dropdown-item"><span>Sub-item 2</span></a></li>
-                                <!-- Add more sub-items as needed -->
-                              </ul>
-                            </li>
-                            <li><a href="#" class="dropdown-item"><span>House Keeping</span></a></li>
-                            <li><a href="#" class="dropdown-item active"><span>Outdoor Covers</span></a></li>
-                          </ul>
-                        </li>
-                        
-                      <li class="nav-item"><a class="nav-link" href="">Clients</a></li>
-                      <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
-                  </ul>
-              </div>
-          </div>
-      </nav>
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"> <img src="img/header-logo.gif" class="logo-img" alt=""> </a>
+                <!-- <a class="logo" href="index.html"> <h2>THE CAPPA <span>Luxury Hotel</span></h2> </a> -->
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="linen-category.html">Linen</a></li>
+                   
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          Products <i class="ti-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                          <li><a class="dropdown-item" href="#">Non Woven</a></li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="false" style="text-transform: capitalize;">
+                             Linen <i class="ti-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                              <li><a class="dropdown-item" href="BED-Linen.html">Bed Linen</a></li>
+                              <li><a class="dropdown-item" href="bath-linen.html">Bath Linen</a></li>
+                              <li><a class="dropdown-item" href="table-linen.html">Table Linen</a></li>
+                              <!-- Add more submenu items here -->
+                            </ul>
+                          </li>
+                          <!-- Add more submenu items here -->
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="house-keeping.html" id="navbarDropdown2" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="false" style="text-transform: capitalize;">
+                             House Keeping <i class="ti-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                              <li><a class="dropdown-item" href="#">Submenu 2-1</a></li>
+                              <li><a class="dropdown-item" href="#">Submenu 2-2</a></li>
+                              <!-- Add more submenu items here -->
+                            </ul>
+                          </li>
+                          <li><a class="dropdown-item" href="outdoor-covers.html">Outdoor Covers</a></li>
+                        </ul>
+                      </li>
+                      
+                    <li class="nav-item"><a class="nav-link" href="#">Clients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     
       <!-- Linen product sub Category -->
       <div class="subcategory_container">
@@ -71,13 +90,13 @@
                 <div class="category_content">
                     <div class="category_card">
                         <div class="cat_img">
-                            <img src="./img/linen/Bed_sheet.webp" alt="">
+                            <img src="img/linen/Bed_sheet.webp" alt="">
                         </div>
                         <div class="text">
                             <div class="category_tag">
                                 <span>Linen</span>
                             </div>
-                            <a href="./BED-Linen.html" class="details">Visit &#10230;</a>
+                            <a href="img/BED-Linen.html" class="details">Visit &#10230;</a>
                             <div class="category_subtitle">
                                 BED Linen
                             </div>
