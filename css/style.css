@@ -6330,3 +6330,12 @@ select {
     object-fit: contain;
     width: 50%;
 }
+.color-theme{
+    color: #a77f62;
+}
+.background-000{
+    background-color: #000;
+}
+.font-32{
+    font-size: 32px;
+}
