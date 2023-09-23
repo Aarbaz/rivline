@@ -6339,3 +6339,15 @@ select {
 .font-32{
     font-size: 32px;
 }
+@font-face {
+    font-family: 'TeXGyreChorus-MediumItalic';
+    src: url('../fonts/Chancery Script SSi Italic.ttf');
+  }
+.custom-font{
+    font-family: 'TeXGyreChorus-MediumItalic';
+}
+.about-text{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
