@@ -54,11 +54,11 @@ $(function () {
         if (bodyScroll > 100) {
             navbar.addClass("nav-scroll");
             // logo.attr('src', 'img/logo.png');
-             logo.attr('src', 'img/header-logo.gif');
+             logo.attr('src', 'img/logo.png');
         } else {
             navbar.removeClass("nav-scroll");
             // logo.attr('src', 'img/logo.png');
-             logo.attr('src', 'img/header-logo.gif');
+             logo.attr('src', 'img/logo.png');
         }
     });
 
