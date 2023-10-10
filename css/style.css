@@ -3806,6 +3806,9 @@ hr {
 .gallery-box .gallery-img {
     position: relative;
     overflow: hidden;
+    border: 1px solid #aa8453;
+    padding: 7px;
+    border-radius: 5px 40px;
 }
 
 .gallery-box .gallery-img:after {
@@ -3824,6 +3827,8 @@ hr {
     transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
     border-radius: 0;
     height:150px;
+    width: 150px;
+    object-fit: contain;
 }
 
 .gallery-box .gallery-detail {
