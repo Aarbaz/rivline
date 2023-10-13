@@ -6337,7 +6337,7 @@ select {
     width: 50%;
 }
 .color-theme{
-    color: #a77f62;
+    color: #d19d71;
 }
 .background-000{
     background-color: #000;
@@ -6354,6 +6354,6 @@ select {
 }
 .about-text{
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
     letter-spacing: 2px;
 }
