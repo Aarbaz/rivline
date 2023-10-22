@@ -85,6 +85,24 @@
     height: 300px;
     object-fit: cover;
 }
+
+.non-woven-heading{
+    margin-left: 30px;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: white;
+    width: fit-content;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.non-woven-heading:hover{
+    /* color: transparent; */
+    color: #aa8453 ;
+}
+
 @media (max-width: 480px){
     .subcategory_container .sub_categories .category_card .category_subtitle{
         width: 200px;
