@@ -3796,6 +3796,7 @@ hr {
 .gallery-item {
     position: relative;
     padding-top: 20px;
+    text-align: center;
 }
 
 .gallery-box {
